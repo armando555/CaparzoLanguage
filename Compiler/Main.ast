@@ -1,0 +1,154 @@
+[
+  {
+    "type": "var_assign",
+    "var_name": {
+      "type": "identifier",
+      "value": "num",
+      "text": "num",
+      "offset": 0,
+      "lineBreaks": 0,
+      "line": 1,
+      "col": 1
+    },
+    "value": {
+      "type": "number",
+      "value": "50",
+      "text": "50",
+      "offset": 6,
+      "lineBreaks": 0,
+      "line": 1,
+      "col": 7
+    }
+  },
+  {
+    "type": "var_assign",
+    "var_name": {
+      "type": "identifier",
+      "value": "num1",
+      "text": "num1",
+      "offset": 9,
+      "lineBreaks": 0,
+      "line": 2,
+      "col": 1
+    },
+    "value": {
+      "type": "fun_call",
+      "fun_name": {
+        "type": "identifier",
+        "value": "add",
+        "text": "add",
+        "offset": 16,
+        "lineBreaks": 0,
+        "line": 2,
+        "col": 8
+      },
+      "arguments": [
+        {
+          "type": "number",
+          "value": "125",
+          "text": "125",
+          "offset": 20,
+          "lineBreaks": 0,
+          "line": 2,
+          "col": 12
+        },
+        {
+          "type": "fun_call",
+          "fun_name": {
+            "type": "identifier",
+            "value": "sub",
+            "text": "sub",
+            "offset": 24,
+            "lineBreaks": 0,
+            "line": 2,
+            "col": 16
+          },
+          "arguments": [
+            {
+              "type": "identifier",
+              "value": "num",
+              "text": "num",
+              "offset": 28,
+              "lineBreaks": 0,
+              "line": 2,
+              "col": 20
+            },
+            {
+              "type": "number",
+              "value": "25",
+              "text": "25",
+              "offset": 32,
+              "lineBreaks": 0,
+              "line": 2,
+              "col": 24
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "fun_call",
+    "fun_name": {
+      "type": "identifier",
+      "value": "printInt",
+      "text": "printInt",
+      "offset": 37,
+      "lineBreaks": 0,
+      "line": 3,
+      "col": 1
+    },
+    "arguments": [
+      {
+        "type": "identifier",
+        "value": "num1",
+        "text": "num1",
+        "offset": 46,
+        "lineBreaks": 0,
+        "line": 3,
+        "col": 10
+      }
+    ]
+  },
+  {
+    "type": "fun_call",
+    "fun_name": {
+      "type": "identifier",
+      "value": "circle",
+      "text": "circle",
+      "offset": 52,
+      "lineBreaks": 0,
+      "line": 4,
+      "col": 1
+    },
+    "arguments": [
+      {
+        "type": "number",
+        "value": "20",
+        "text": "20",
+        "offset": 59,
+        "lineBreaks": 0,
+        "line": 4,
+        "col": 8
+      },
+      {
+        "type": "number",
+        "value": "30",
+        "text": "30",
+        "offset": 62,
+        "lineBreaks": 0,
+        "line": 4,
+        "col": 11
+      },
+      {
+        "type": "number",
+        "value": "5",
+        "text": "5",
+        "offset": 65,
+        "lineBreaks": 0,
+        "line": 4,
+        "col": 14
+      }
+    ]
+  }
+]

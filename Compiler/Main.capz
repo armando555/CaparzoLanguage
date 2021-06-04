@@ -1,0 +1,4 @@
+num = 50
+num1 = add(125,sub(num,25))
+printInt(num1)
+circle(20,30,5)

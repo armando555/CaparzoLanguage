@@ -1,0 +1,17 @@
+{
+  "name": "compiladorjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen-parser": "nearleyc capz.ne -o capz.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moo": "^0.5.1",
+    "mz": "^2.7.0",
+    "nearley": "^2.20.1"
+  }
+}

@@ -1,0 +1,19 @@
+function Main.main 2
+push constant 50
+pop local 0
+push constant 125
+push local 0
+push constant 25
+sub
+add
+pop local 1
+push local 1
+call Output.printInt 1
+pop temp 0
+push constant 20
+push constant 30
+push constant 5
+call Screen.drawCircle 3
+pop temp 0
+push constant 0
+return

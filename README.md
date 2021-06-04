@@ -11,6 +11,8 @@ to declare a variable and initialize it:
 var_name => expression
 
 expression=> fun_call| number | identifier
+
+fun_call => fun_name (argList)
 # Math functions
 add(num,num2)
 

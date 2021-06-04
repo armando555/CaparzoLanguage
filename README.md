@@ -4,7 +4,7 @@ This is a final project for Organización de computadores at EAFIT University.
 To use this toy language you have to install Node Js and run the command "npm install" to install the required modules.
 
 Now this language can compile these grammar rules.
-# Note: this language doesn't have loops and doesn't work with string, only works with numbers ¡¡¡¡PLEASE CALL THA FILE "Main.capz"!!!!
+# Note: this language doesn't have loops and doesn't work with string, only works with numbers ¡¡¡¡PLEASE NAME THA FILE "Main.capz"!!!!
 
 to declare a variable and initialize it:
 

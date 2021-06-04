@@ -1,6 +1,8 @@
 # CaparzoLanguage
 This is a final project for Organización de computadores at EAFIT University. 
 
+This project was made by: Armando Ríos Gallego and Julián Ríos Vasquéz
+
 To use this toy language you have to install Node Js and run the command "npm install" to install the required modules.
 
 Now this language can compile these grammar rules.

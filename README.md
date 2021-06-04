@@ -41,7 +41,7 @@ printInt(num1)
 
 circle(20,30,5)
 
-# How to ejecute the compiler
+# How to execute the compiler
 after run npm install now you can run
 
 node run.js Main.capz

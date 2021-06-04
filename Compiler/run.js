@@ -9,10 +9,9 @@ async function main(){
         return;
     }
     const astFilename = fileName.replace(".capz", ".ast");
-    const jsFilename = fileName.replace(".capz", ".js");
+    const jsFilename = fileName.replace(".capz", ".vm");
     await myExec(`node parse.js ${fileName}`);
-    await myExec(`node generate.js ${astFilename}`);
-    await myExec(`node ${jsFilename}`);
+    await myExec(`node generateVM.js ${astFilename}`);
     
 }
 async function myExec(command){

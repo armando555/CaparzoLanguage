@@ -23,7 +23,7 @@ function generateJSForStatements(statements){
     for (let statement of statements){
         countVarAssign(statement);
     }
-    console.log("Hay "+countVar+" variables");
+    //console.log("Hay "+countVar+" variables");
     lines.push("function Main.main "+countVar);
     for (let statement of statements){
         const line = generateJsForStatementOrExpr(statement);

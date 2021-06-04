@@ -6,7 +6,7 @@ This project was made by: Armando Ríos Gallego and Julián Ríos Vasquéz
 To use this toy language you have to install Node Js and run the command "npm install" to install the required modules.
 
 Now this language can compile these grammar rules.
-# Note: this language doesn't have loops and doesn't work with string, only works with numbers ¡¡¡¡PLEASE NAME THA FILE "Main.capz"!!!!
+# Note: this language doesn't have loops and doesn't work with string, only works with numbers ¡¡¡¡PLEASE NAME THE FILE "Main.capz"!!!!
 
 to declare a variable and initialize it:
 
